@@ -11,3 +11,5 @@ router.get("/", function(req,res){
     //var file = req.params[0] || "../public/assets/views/index.html";
     res.sendFile(path.join(__dirname, "../public/", "assets/views/index.html"));
 });
+
+module.exports = router;
